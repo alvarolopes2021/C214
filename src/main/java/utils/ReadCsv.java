@@ -1,4 +1,4 @@
-package services;
+package utils;
 
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
@@ -34,10 +34,7 @@ public class ReadCsv {
             System.out.println(error);
         }
 
-        System.out.println(list);
-
         return list;
     }
-
 
 }

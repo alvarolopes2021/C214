@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
-@AllArgsConstructor
 public class Model {
 
     private int rank;
@@ -13,10 +12,10 @@ public class Model {
     private int year;
     private String genre;
     private String publisher;
-    private int na_sales;
-    private int eu_sales;
-    private int jp_sales;
-    private int other_sales;
-    private int global_sales;
+    private float na_sales;
+    private float eu_sales;
+    private float jp_sales;
+    private float other_sales;
+    private float global_sales;
 
 }
